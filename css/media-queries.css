@@ -16,13 +16,14 @@
         flex-direction: column;
     }
     header nav ul li{
-        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
     }
-    header nav ul li{
-        margin: auto;
-    }
-    header nav ul li:first-of-type a{
-        margin: auto;
+    header nav ul li:first-of-type{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
     }
     header nav ul li:last-of-type{
         margin: auto;
@@ -35,7 +36,7 @@
     }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
     .components{
         flex-wrap: wrap;
         justify-content: center;
