@@ -199,7 +199,7 @@ header nav ul li a:hover{
 }
 .past_clients img{
     display: block;
-    width: 100%;
+    width: 50%;
 }
 .past_clients a:hover{
     transform: scale(1.1);
