@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aperture</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
@@ -71,13 +73,13 @@
     <div class="container">
         <h2>Past clients</h2>
         <p>Trusted by your favourite companies</p>
-        <ul class="past_clients">
-            <li><a href="#"><img src="images/hillhayes.svg" alt="hillhayes"></a></li>
-            <li><a href="#"><img src="images/riksgransen.svg" alt="riksgransen"></a></li>
-            <li><a href="#"><img src="images/studiocai.svg" alt="studiocai"></a></li>
-            <li><a href="#"><img src="images/chillindustries.svg" alt="chillindustries"></a></li>
-            <li><a href="#"><img src="images/stockholm.svg" alt="stockholm"></a></li>
-        </ul>
+        <div class="past_clients owl-carousel">
+            <a href="#"><img src="images/hillhayes.svg" alt="hillhayes"></a>
+            <a href="#"><img src="images/riksgransen.svg" alt="riksgransen"></a>
+            <a href="#"><img src="images/studiocai.svg" alt="studiocai"></a>
+            <a href="#"><img src="images/chillindustries.svg" alt="chillindustries"></a>
+            <a href="#"><img src="images/stockholm.svg" alt="stockholm"></a>
+        </div>
     </div>
 </section>
 <section class="starfall">
@@ -97,5 +99,11 @@
         </div>
     </div>
 </section>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+</script>
+<script src="js/owl.carousel.js"></script>
 </body>
 </html>

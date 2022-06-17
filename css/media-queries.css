@@ -2,7 +2,7 @@
     .past_clients{
         flex-direction: column;
     }
-    .past_clients li{
+    .past_clients a{
         margin-bottom: 30px;
     }
 }
