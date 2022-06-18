@@ -222,7 +222,7 @@ header nav ul li a:hover{
 .sprite {
     background-image: url(../images/spritesheet.png);
     background-repeat: no-repeat;
-    display: block;
+    display: inline-block;
 }
 .sprite-chill {
     width: 128px;
