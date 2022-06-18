@@ -226,6 +226,31 @@ header nav ul li a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    left: -50px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    right: -50px;
+}
+.owl-nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: -25px;
+}
 .sprite {
     background-image: url(../images/spritesheet.png);
     background-repeat: no-repeat;
