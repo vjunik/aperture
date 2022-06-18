@@ -1,12 +1,3 @@
-@media only screen and (max-width: 800px) {
-    .past_clients{
-        flex-direction: column;
-    }
-    .past_clients a{
-        margin-bottom: 30px;
-    }
-}
-
 @media only screen and (max-width: 650px) {
     header .container{
         flex-wrap: wrap;

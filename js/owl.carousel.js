@@ -3446,7 +3446,3 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
-
-$(document).ready(function(){
-	$(".owl-carousel").owlCarousel();
-});
