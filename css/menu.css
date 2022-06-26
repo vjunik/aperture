@@ -88,6 +88,9 @@
     cursor: pointer;
     transition : all 0.3s ease-out;
 }
+.logo-wrap a:hover{
+    transform: scale(0.9);
+}
 .logo-wrap a span{
     color: #8167a9;
 }
@@ -248,7 +251,6 @@
     color: rgba(255,255,255,0.6);
     overflow: hidden;
     cursor: pointer;
-
     font-weight: 400;
     z-index: 2;
     display: inline-block;
