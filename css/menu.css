@@ -211,6 +211,9 @@
     transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
     margin-right: 32px;
 }
+.hover-target:hover{
+    transform: scale(0.9);
+}
 .mv102{
     min-width: 102px;
 }
