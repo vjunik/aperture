@@ -13,6 +13,38 @@
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
   z-index: 1; }
+.owl-stage{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.owl-nav .owl-prev:before{
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f053";
+  font-size: 30px;
+  color: #FFFFFF;
+  position: relative;
+  left: 10px;
+}
+.owl-nav .owl-next:before{
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f054";
+  font-size: 30px;
+  color: #FFFFFF;
+  position: relative;
+  right: 10px;
+}
+.owl-nav{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: -30px;
+}
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
@@ -157,7 +189,6 @@
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("owl.video.play.png") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;

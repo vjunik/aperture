@@ -1,0 +1,229 @@
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(menu.css);
+@import url(media-queries.css);
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Regular.eot");
+  src: url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+* {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  max-width: 1168px;
+  margin: auto; }
+
+header {
+  background-color: black; }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .container .logo {
+      display: inline-block; }
+
+.main_banner {
+  background-image: url("../images/aperture_studios.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-top: 461px;
+  padding-bottom: 71px;
+  position: relative; }
+  .main_banner .container {
+    max-width: 580px;
+    margin: inherit;
+    text-align: center; }
+    .main_banner .container h3 {
+      font-family: "Puppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #C0C0C0;
+      margin-bottom: 1px; }
+    .main_banner .container h1 {
+      font-family: "Puppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 54px;
+      line-height: 59px;
+      color: white;
+      margin-bottom: 18px; }
+    .main_banner .container p {
+      font-family: "Puppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #C0C0C0; }
+
+.components {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  bottom: 41px;
+  list-style: none; }
+  .components li {
+    margin-left: 16px;
+    font-family: "Puppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: white; }
+    .components li:before {
+      content: "";
+      display: inline-block;
+      background-image: url("../images/icon_4.svg");
+      width: 16px;
+      height: 16px;
+      margin-right: 6px;
+      position: relative;
+      top: 7px; }
+    .components li:nth-child(2):before {
+      background-image: url("../images/icon_3.svg"); }
+    .components li:nth-child(3):before {
+      background-image: url("../images/icon_2.svg");
+      width: 32px; }
+    .components li:last-of-type:before {
+      background-image: url("../images/icon_1.svg");
+      width: 10px; }
+
+.sunset_banner {
+  background-image: url("../images/mountain.jpg");
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  position: relative; }
+
+.leafs_banner {
+  background-image: url("../images/leafs.jpg");
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  position: relative; }
+
+.past_clients_banner {
+  background-color: black;
+  padding-top: 120px;
+  padding-bottom: 90px; }
+  .past_clients_banner .container {
+    max-width: 1200px;
+    text-align: center; }
+    .past_clients_banner .container h2 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 42px;
+      color: white;
+      margin-bottom: 15px; }
+    .past_clients_banner .container p {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: #C0C0C0;
+      margin-bottom: 72px; }
+    .past_clients_banner .container .past_clients {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .past_clients_banner .container .past_clients a {
+        max-width: 128px;
+        display: inline-block;
+        transition: 0.6s; }
+        .past_clients_banner .container .past_clients a:hover {
+          transform: scale(1.1); }
+      .past_clients_banner .container .past_clients .sprite {
+        background-image: url(../images/spritesheet.png);
+        background-repeat: no-repeat;
+        display: inline-block; }
+      .past_clients_banner .container .past_clients .sprite-chill {
+        width: 128px;
+        height: 36px;
+        background-position: -5px -5px; }
+      .past_clients_banner .container .past_clients .sprite-hill {
+        width: 128px;
+        height: 30px;
+        background-position: -143px -5px; }
+      .past_clients_banner .container .past_clients .sprite-riks {
+        width: 128px;
+        height: 78px;
+        background-position: -281px -5px; }
+      .past_clients_banner .container .past_clients .sprite-stock {
+        width: 128px;
+        height: 32px;
+        background-position: -419px -5px; }
+      .past_clients_banner .container .past_clients .sprite-stud {
+        width: 128px;
+        height: 20px;
+        background-position: -557px -5px; }
+
+.starfall {
+  background-image: url("../images/starfall.jpg");
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  position: relative; }
+
+.getintouch {
+  background-color: black;
+  padding-top: 120px;
+  padding-bottom: 108px; }
+  .getintouch .container {
+    max-width: 600px;
+    text-align: center; }
+  .getintouch h2 {
+    font-family: "Puppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 15px; }
+  .getintouch p {
+    font-family: "Puppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0; }
+  .getintouch .button {
+    display: flex;
+    justify-content: center; }
+    .getintouch .button a {
+      text-decoration: none;
+      display: flex;
+      margin-top: 22px;
+      max-width: 154px;
+      background: white;
+      border-radius: 14px;
+      transition: 0.6s; }
+      .getintouch .button a:hover {
+        transform: scale(1.1); }
+      .getintouch .button a::before {
+        content: "";
+        width: 32px;
+        height: 32px;
+        border-radius: 14px;
+        margin: 5px 6px 5px 4px;
+        background: black; }
+      .getintouch .button a::after {
+        content: "Get in touch";
+        font-family: "Puppins", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: black;
+        padding: 9px 10px 13px 0; }
+
+/*# sourceMappingURL=style_preproc.css.map */
