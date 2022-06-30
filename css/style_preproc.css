@@ -1,7 +1,6 @@
 @import url(owl.carousel.css);
 @import url(owl.theme.default.css);
 @import url(menu.css);
-@import url(media-queries.css);
 @font-face {
   font-family: 'Poppins';
   src: url("../fonts/Poppins-Regular.eot");
@@ -25,6 +24,43 @@ header {
     align-items: center; }
     header .container .logo {
       display: inline-block; }
+
+@media screen and (max-width: 860px) {
+  .logo-wrap {
+    top: 10px; } }
+
+@media screen and (max-width: 860px) {
+  .nav-but-wrap {
+    display: inline-block; } }
+
+@media screen and (max-width: 860px) {
+  .nav {
+    position: fixed; } }
+@media screen and (max-width: 860px) {
+  .nav .nav__content {
+    position: fixed;
+    visibility: hidden;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%); } }
+@media screen and (max-width: 860px) {
+  .nav .nav__content .nav__list {
+    display: block;
+    margin: auto;
+    right: 0; } }
+@media screen and (max-width: 860px) {
+  .nav .nav__content .nav__list .nav__list-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 32px; } }
+@media screen and (max-width: 860px) {
+  .nav .nav__content .nav__list .nav__list-item:last-of-type {
+    margin-bottom: 0; } }
+@media screen and (max-width: 860px) {
+  .nav .nav__content .nav__list .nav__list-item:last-of-type a {
+    padding: 30px 20px; } }
+@media screen and (max-width: 860px) {
+  .nav .nav__content .nav__list .nav__list-item a {
+    padding: 15px; } }
 
 .main_banner {
   background-image: url("../images/aperture_studios.jpg");
@@ -69,6 +105,10 @@ header {
   right: 40px;
   bottom: 41px;
   list-style: none; }
+  @media screen and (max-width: 350px) {
+    .components {
+      flex-wrap: wrap;
+      justify-content: center; } }
   .components li {
     margin-left: 16px;
     font-family: "Puppins", sans-serif;

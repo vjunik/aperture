@@ -17,7 +17,6 @@
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
 @import "menu.css";
-@import "media-queries.css";
 
 $main_font: 'Puppins', sans-serif;
 $black_color:black;
@@ -50,6 +49,61 @@ header {
     align-items: center;
     .logo {
       display: inline-block;
+    }
+  }
+}
+
+.logo-wrap {
+  @include max-screen(860px) {
+    top: 10px;
+  }
+}
+
+.nav-but-wrap {
+  @include max-screen(860px) {
+    display: inline-block;
+  }
+}
+
+.nav {
+  @include max-screen(860px) {
+    position: fixed;
+  }
+  .nav__content {
+    @include max-screen(860px) {
+      position: fixed;
+      visibility: hidden;
+      -webkit-transform: translate(0%, -50%);
+      transform: translate(0%, -50%);
+    }
+    .nav__list {
+      @include max-screen(860px) {
+        display: block;
+        margin: auto;
+        right: 0;
+      }
+      .nav__list-item {
+        @include max-screen(860px) {
+          margin-right: 0;
+          margin-bottom: 20px;
+          font-size: 32px;
+        }
+        &:last-of-type {
+          @include max-screen(860px) {
+            margin-bottom: 0;
+          }
+          a {
+            @include max-screen(860px) {
+              padding: 30px 20px;
+            }
+          }
+        }
+        a {
+          @include max-screen(860px) {
+            padding: 15px;
+          }
+        }
+      }
     }
   }
 }
@@ -102,6 +156,10 @@ header {
   right: 40px;
   bottom: 41px;
   list-style: none;
+  @include max-screen(350px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   li {
     margin-left: 16px;
     font-family: $main_font;
